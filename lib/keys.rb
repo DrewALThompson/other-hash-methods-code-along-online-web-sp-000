@@ -13,7 +13,7 @@ def get_the_keys(groceries)
 end
 
 def get_the_values(groceries)
-groceries.values.flatten
+ groceries.values.flatten
 end
 
 get_the_values(groceries)
