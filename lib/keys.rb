@@ -13,11 +13,9 @@ def get_the_keys(groceries)
 end
 
 def get_the_min(groceries)
-minimum = []
-minimum << groceries.min
-minimum
+groceries.
 end
 
 def get_the_values(groceries)
-groceries.values
+groceries.values.flatten
 end
