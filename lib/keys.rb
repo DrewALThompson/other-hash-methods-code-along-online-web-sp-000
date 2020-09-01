@@ -13,7 +13,9 @@ def get_the_keys(groceries)
 end
 
 def get_the_min(groceries)
-groceries.min
+minimum = []
+minimum << groceries.min
+minimum
 end
 
 def get_the_values(groceries)
