@@ -13,10 +13,7 @@ def get_the_keys(groceries)
 end
 
 def get_the_values(groceries)
-to_buy = []  
-to_buy << groceries.values.flatten
-to_buy
+groceries.values.flatten
 end
-
 
 get_the_values(groceries)
