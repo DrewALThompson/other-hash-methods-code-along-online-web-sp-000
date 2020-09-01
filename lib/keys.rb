@@ -17,4 +17,3 @@ groceries.values
 groceries.values.flatten
 end
 
-get_the_values
